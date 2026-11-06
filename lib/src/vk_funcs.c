@@ -23,7 +23,7 @@
 #undef WINDOWS
 #define WINDOWS 1
 #endif
-#if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__OpenBSD__) || defined(__bsdi__) || defined(__DragonFly__)
+#if defined(__FreeBSD__) || defined(__NetBSD__) || defined(__OpenBSD__) || defined(__bsdi__) || defined(__DragonFly__) || defined(__QNXNTO__)
 #undef UNIX
 #define UNIX 1
 #endif
